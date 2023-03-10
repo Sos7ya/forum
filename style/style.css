@@ -64,3 +64,8 @@ body{
     text-align: end;
     text-decoration: underline;
 }
+
+#delete{
+    max-width: 20px;
+    max-height: 20px;
+}

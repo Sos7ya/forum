@@ -62,6 +62,19 @@ function showComments(){
         out += `<p class="time"><em>${item.time}</em></p>`;
         out += `<h3 class="user-name">${item.name + ':'}</h3>`;
         out += `<p class="user-comment">${item.body}</p>`;
+        out += '<img id="delete" src="./icons/seo-social-web-network-internet_262_icon-icons.com_61518.svg" alt="delete">';
     })
     commentField.innerHTML = out;
 }
+
+    
+    
+//     document.getElementById('delete').onclick = function(){
+//         let comment = comments.item
+//         let i = comments.indexOf('comment')
+//         comments.splice(i-1, 1)
+//         console.log(comments)
+//         saveComments()
+//         showComments()
+    
+// }
