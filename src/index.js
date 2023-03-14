@@ -67,11 +67,6 @@ document.getElementById('form').addEventListener('submit',(e) =>{
 
 })
 
-
-// function validator(){commentName.addEventListener('input',(evt)=>{
-//     userName == 0 ?? alert("ERROR: no name");
-// })}
-    
 function saveComments(){
     localStorage.setItem('comments', JSON.stringify(comments));
 }
@@ -104,6 +99,5 @@ const deleteComment = (evt) =>{
     showComments();
     location.reload();
 }
-
 
 deleteBtns.forEach((el) =>el.addEventListener('click', (evt) => deleteComment(evt)));
