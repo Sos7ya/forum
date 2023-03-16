@@ -78,3 +78,19 @@ body{
     max-width: 20px;
     max-height: 20px;
 }
+
+@media screen and (max-width: 540px){
+    .main_wraper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comment-group{
+        max-width: none;
+    }
+    .comment-field{
+        max-width: none;
+        width: auto;
+    }
+}
